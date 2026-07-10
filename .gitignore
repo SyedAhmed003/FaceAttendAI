@@ -1,0 +1,31 @@
+# Virtual Environment
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Database
+database/*.db
+
+# Attendance
+attendance/*.csv
+
+# Embeddings
+embeddings/*.pkl
+
+# Employee Images
+dataset/employees/
+
+# Logs
+logs/
+
+# VS Code
+.vscode/
+
+# Windows
+Thumbs.db
+
+# macOS
+.DS_Store
