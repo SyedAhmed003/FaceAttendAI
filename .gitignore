@@ -6,17 +6,14 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-# Database
-database/*.db
-
-# Attendance
+# Attendance exports
 attendance/*.csv
-
-# Embeddings
-embeddings/*.pkl
 
 # Employee Images
 dataset/employees/
+
+# Generated embeddings
+embeddings/*.pkl
 
 # Logs
 logs/
@@ -24,8 +21,6 @@ logs/
 # VS Code
 .vscode/
 
-# Windows
+# OS files
 Thumbs.db
-
-# macOS
 .DS_Store
